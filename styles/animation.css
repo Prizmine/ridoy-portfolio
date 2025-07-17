@@ -27,7 +27,7 @@
     }
 }
 .translate{
-    animation: appear ease;
+    animation: translate ease;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 }
@@ -43,7 +43,7 @@
     }
 }
 .rotate{
-    animation: appear ease;
+    animation: rotate ease;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 }
@@ -68,21 +68,22 @@
 @keyframes zig{
     0%{
         transform: rotate(0);
+        opacity: 0;
     }
     50%{
-        
-        transform: rotate(45deg);
+        opacity: 1;
+        transform: rotate(15deg);
     }
     75%{
         
-        transform: rotate(-45deg);
+        transform: rotate(-15deg);
     }
     100%{
         transform: rotate(360deg);
     }
 }
 .zig{
-    animation: zig ease 5s;
+    animation: zig ease-out 5s;
 }
 
 
