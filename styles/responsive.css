@@ -1,0 +1,84 @@
+@media screen and (max-width:1400px) and  (min-width:1000px){
+    .ridoy{
+        max-width: 400px;
+        margin-top: 6vh;
+        transition: 1s ease;
+    }
+
+    .nav-link{
+        font-size: 1.3em;
+    }
+
+    .main-title{
+        font-size: 2.4em;
+    }
+
+    .main-dis{
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (max-width:480px){
+
+    .navigation{
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+
+    .nav-link{
+        visibility: hidden;
+        display: none;
+    }
+
+    .nav-title{
+        font-size: 2em;
+    }
+
+    .main-content{
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .main-title{
+        text-align: center;
+        font-size: 2em;
+    }
+    .main-greetings, .main-dis{
+        text-align: center;
+        width: 90vw;
+    }
+
+    .main-greetings{
+        font-size: 1em;
+    }
+
+    header{
+        height: 100vh;
+        overflow: hidden;
+    }
+    .main-banner{width: 100vw;}
+
+    .main-right, .main-dis-container{
+        display: flex;
+        justify-content: center;
+    }
+    .main-dis{
+        margin-top: 6vh;
+    }
+    .hire-me{
+        display: none;
+        visibility: hidden;
+
+    }
+    .ridoy{
+        width:300px;
+        margin-top: 6vh;
+        margin-bottom: 6vh;
+    }
+}
+
+

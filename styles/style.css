@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* fonts */
+.fjalla {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.bitcount {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.playwrite {
+  font-family: "Playwrite VN Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.my-soul {
+  font-family: "My Soul", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* body */
+
+header{
+  height: 80vh;
+  width: 100%;
+  background: linear-gradient(to right, #6b9080, #a4c3b2, #cce3de, #eaf4f4, #f6fff8);
+}
+
+.navigation{
+  width: 55vw;
+  margin: 0 auto;
+  padding-top: 3%;
+}
+
+
+
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title{
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+.d{
+  color: orangered;
+}
+
+.nav-link-container{
+  list-style: none;
+  display: flex;
+  gap: 1vw;
+}
+
+.nav-link{
+  color: rgb(126, 126, 126);
+  /* margin-left: 1vw; */
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.5em;
+  border-radius: 15px;
+  /* box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.097); */
+  /* border: 1px solid rgba(0, 0, 0, 0.032); */
+}
+
+.main-content{
+  display: flex;
+  justify-content: space-between;
+  width: 65vw;
+   margin-top: 10vh;
+  /* border: 1px solid black; */
+  
+  margin: 0 auto;
+  
+  margin-top: 3%;
+}
+
+.main-left{
+  padding-top: 6%;
+}
+
+.main-greetings{
+  font-size: 1.4em;
+}
+
+.main-title{
+  font-size: 3em;
+  list-style: 2%;
+  margin-top: 4%;
+  font-weight: bold;
+}
+
+.main-dis{
+  font-size: 1.3em;
+  color: #525252;
+  margin-top: 5%;
+  width: 22vw;
+}
+
+.hire-me{
+  font-size: 1.7em;
+  padding: 1% 4%;
+  margin-top: 4vh;
+  border-radius: 5px;
+  border: 2px solid rgb(126, 126, 126);
+  background: linear-gradient(to right, #a4c3b200, rgba(193, 192, 192, 0));
+}
+
+.ridoy{
+  max-width: 500px;
+  overflow: hidden;
+  height: auto;
+  mask-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(45, 136, 255), rgb(255, 0, 0), rgba(255, 0, 0, 0));
+
+}
